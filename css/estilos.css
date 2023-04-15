@@ -1,0 +1,239 @@
+/*Codigo base*/
+body {
+	background-color: #f5f5f5;
+	font-family: 'Libre Baskerville', serif;
+	font-size: 16px;
+	 color: #000;
+	margin: 0; padding: 0;
+}
+.menu-wrapper{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+	
+}
+.dropdown-menu {
+	list-style: none;
+  }
+.menu-wrapper a{
+	color: #808080;
+	margin-left: 15px;
+}
+.navbar{
+	margin: 0 auto;
+	text-decoration: none;
+	
+}
+a{text-decoration: none;}
+.navbar-link{
+	font-size: 12px;
+}
+#iconotesla{
+	float: left;
+}
+#piepaginaindex{
+	background-color: #00000000;
+}
+h1{
+	color: rgb(255, 255, 255);
+	font-size: 95px;
+}
+/*Codigo Index*/
+/* Imagen1*/
+.imagen1 {
+	position: relative;
+  }
+  
+  .imagen1-hover {
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	transition: opacity 0.3s ease-in-out;
+  }
+  
+  .imagen1:hover .imagen1-hover {
+	opacity: 1;
+  }
+  .nombre1{
+	position: absolute;
+	left:10%;
+	bottom: 8%;
+	color: #fff;
+	
+  }
+  .nombre2{
+	position: absolute;
+	left:5%;
+	bottom: 8%;
+	color: #fff;
+	
+  }
+  
+  
+
+
+
+
+
+/* Imagen2*/
+  .imagen2 {
+	position: relative;
+  }
+  
+  .imagen2-hover {
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	transition: opacity 0.3s ease-in-out;
+  }
+  
+  .imagen2:hover .imagen2-hover {
+	opacity: 1;
+  }
+/* Imagen3*/
+.imagen3 {
+	position: relative;
+  }
+  
+  .imagen3-hover {
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	transition: opacity 0.3s ease-in-out;
+  }
+  
+  .imagen3:hover .imagen3-hover {
+	opacity: 1;
+  }
+  /* Imagen4*/
+.imagen4 {
+	position: relative;
+  }
+  
+  .imagen4-hover {
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	transition: opacity 0.3s ease-in-out;
+  }
+  
+  .imagen4:hover .imagen4-hover {
+	opacity: 1;
+  }
+
+
+
+
+.titulo1{
+	position: absolute;
+	left:15%;
+	top: 8%;
+	font-size: 85px;
+	background-color: rgba(255, 255, 255, 0.3);
+	padding:  0 10px;
+	border-radius: 5px;
+}
+.titulo2{
+	position: absolute;
+	left:75%;
+	top: 8%;
+	font-size: 85px;
+	background-color: rgba(255, 255, 255, 0.3);
+	padding:  0 10px;
+	border-radius: 5px;
+}
+.titulo3{
+	position: absolute;
+	left:10%;
+	top: 8%;
+	font-size: 85px;
+	background-color: rgba(255, 255, 255, 0.3);
+	padding:  0 10px;
+	border-radius: 5px;
+}
+.titulo4{
+	position: absolute;
+	left:70%;
+	top: 8%;
+	font-size: 85px;
+	background-color: rgba(255, 255, 255, 0.3);
+	padding:  0 10px;
+	border-radius: 5px;
+}
+
+
+
+
+/*FIN Codigo Index*/
+
+/*Inicia sector Jaguar*/
+
+.fondojaguar{
+	width: 100%; height: 100vh;
+	background-image: url(../img/Jaguar/jaguar\ 1.webp);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: relative;
+	margin: 0 auto;
+	
+}
+
+.fondojaguar2{
+	width: 100%; height: 100vh;
+	background-image: url(../img/Jaguar/jaguar\ 1_c.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: relative;
+	margin: 0 auto;
+	
+}
+.fondojaguar3{
+	width: 100%; height: 100vh;
+	background-image: url(../img/Jaguar/jaguar\ 1_e.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: relative;
+	margin: 0 auto;
+	
+}
+/*FIN sector Jaguar*/
+
+/*Inicia sector Puma*/
+.fondopuma{
+	width: 100%; height: 100vh;
+	background-image: url(../img/Puma/01.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: relative;
+	margin: 0 auto;
+	
+}
+
+/*formulario*/
+
+/*Inicia sector leon*/
+.fondoleon{
+	width: 100%; height: 100vh;
+	background-image: url(../img/Leon/01.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: relative;
+	margin: 0 auto;
+	
+}
+
+/*Inicia sector leon*/
+.fondopantera{
+	width: 100%; height: 100vh;
+	background-image: url(../img/pantera/01.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: relative;
+	margin: 0 auto;
+	
+}
